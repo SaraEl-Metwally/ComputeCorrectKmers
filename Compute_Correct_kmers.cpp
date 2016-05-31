@@ -297,6 +297,7 @@ int main(int argc,char** argv)
  uint64_t nb_kmers_B=0;
  uint64_t nb_kmers_B_all=0;
  uint64_t nb_correct_kmers=0;
+ uint64_t nb_missing_kmers=0;
  uint64_t nb_incorrect_kmers=0;
  kmercode_length kmer_mask=((static_cast<kmercode_length>(1))<<(kmer_size*2))-1;
  if (file_kmers_Ref.is_open())
@@ -406,7 +407,8 @@ int main(int argc,char** argv)
 
    std::cout<<"--- number of incorrect kmers     = "<<nb_incorrect_kmers<<std::endl;
    std::cout<<"--- number of correct kmers       = "<<nb_correct_kmers<<std::endl;
-
+   nb_missing_kmers= nb_ref_kmers - nb_correct_kmers;
+   std::cout<<"--- number of missing kmers       = "<<nb_missing_kmers<<std::endl;
 
 
  return 0;
