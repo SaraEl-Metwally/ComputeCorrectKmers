@@ -25,9 +25,9 @@ The output of ComputeCorrectKmers is:
 - number of unique kmers in the reference genome
 - number of all trust classified kmers by LightAssembler in Bloom filter B
 - number of unique kmers in Bloom filter B
-- number of incorrect kmers
-- number of correct kmers
-- number of missing kmers
+- number of incorrect kmers that are kept in Bloom filter B
+- number of correct classified kmers by LightAssembler
+- number of missing correct kmers by LightAssembler
 
 #### Example 1
 ``` ./ComputeCorrectKmers -k 31 ```[Staphylococcus_aureus.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta) LightAssembler.solid_kmers
