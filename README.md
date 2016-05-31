@@ -30,5 +30,6 @@ The output of ComputeCorrectKmers is:
 - number of missing kmers
 
 #### Example 1
-``` ./ComputeCorrectKmers -k 31 ```[Staphylococcus_aureus.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta) 
+``` ./ComputeCorrectKmers -k 31 ```[Staphylococcus_aureus.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta) LightAssembler.solid_kmers
+
 
