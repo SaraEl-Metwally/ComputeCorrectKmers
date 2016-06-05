@@ -32,4 +32,14 @@ The output of ComputeCorrectKmers is:
 #### Example 1
 ``` ./ComputeCorrectKmers -k 31 ```[Staphylococcus_aureus.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta) [LightAssembler.solid_kmers](https://www.dropbox.com/s/jqjbcpng5u6n3mu/LightAssembler.solid_kmers?dl=0)
 
+```
+--- input reference length                          = 2903303
+--- number of all kmers in the reference genome     = 2903273
+--- number of unique kmers in the reference genome  = 2858856
+--- number of all trust classified kmers in B       = 3185616
+--- number of unique kmers in B                     = 3185616
+--- number of incorrect kmers                       = 337600
+--- number of correct kmers                         = 2848016
+--- number of missing kmers                         = 10840
+```
 
